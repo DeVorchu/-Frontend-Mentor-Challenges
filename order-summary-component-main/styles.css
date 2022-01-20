@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  color: #1f2f56;
+}
+
+.card_wraper {
+  border-radius: 15px;
+  width: 330px;
+  -webkit-box-shadow: 0 20px 30px #7280a7;
+          box-shadow: 0 20px 30px #7280a7;
+  overflow: hidden;
+}
+
+.header {
+  height: 165px;
+  background-image: url("./images/illustration-hero.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.content__box {
+  padding: 30px;
+}
+
+.title__box {
+  font-size: 22px;
+  font-weight: 900;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+}
+
+.summary__desc {
+  max-width: 100%;
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.plan_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background: #f5f7ff;
+  padding: 10px 20px;
+  border-radius: 12px;
+  font-size: 14px;
+}
+
+.plan__time {
+  font-weight: 900;
+}
+
+.plan__cost {
+  font-weight: 700;
+}
+
+.plan__change {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 700;
+  color: #3829e0;
+  text-decoration: underline;
+}
+
+.plan__change:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.proceed__button {
+  max-width: 100%;
+  background: #3829e0;
+  padding: 14px;
+  margin-top: 20px;
+  border-radius: 10px;
+  color: white;
+  font-weight: 700;
+  font-size: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 0 20px 20px rgba(56, 41, 224, 0.24);
+          box-shadow: 0 20px 20px rgba(56, 41, 224, 0.24);
+}
+
+.proceed__button:hover {
+  background: #756af1;
+  cursor: pointer;
+}
+
+.cancel__link {
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cancel__link:hover {
+  font-weight: 900;
+  cursor: pointer;
+}
+/*# sourceMappingURL=styles.css.map */
